@@ -2,7 +2,6 @@
 %define		ver		%(echo %{subver} | tr -d -)
 %define		plugin		jiralinks
 %define		php_min_version 5.2.0
-%include	/usr/lib/rpm/macros.php
 Summary:	DokuWiki Jira-links Plugin
 Name:		dokuwiki-plugin-%{plugin}
 Version:	%{ver}
